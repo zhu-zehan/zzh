@@ -1,0 +1,67 @@
+# jemdoc: menu{MENU}{example.html}, addcss{example.css}
+= Syllabus of Summer School
+
+== Introduction to the summer school
+The summer school covers several recent advances in the topic of distributed control, optimization and learning. The main object of the course is to introduce advanced control and optimization methods for large-scale systems that arise in modern control engineering and data science. The content of the course covering basics for convex optimization, first-order optimization methods (e.g., (proximal) gradient method, accelerated gradient methods and primal-dual methods), decomposition and splitting methods (e.g., dual decomposition, monotone operators and operator splitting), as well as recent developed parallel and distributed algorithms. To enhance the learning outcome of students, new online learning models, such as SPOC, will be likely employed to promote self-learning and diversity of learning processes, along with a bunch of concrete examples including smart grid, sensor networks and machine learning for the sake of enriching the content of the course. After completing this course, the students are expected to be able to apply the control and optimization techniques learned from this course to large-scale cyber-physical systems as well as other related research areas.
+
+== Course Content
+Day 1. Introduction to the course
+    - Background • Graph Basics and Weight Matrix • (Dynamic) Average Consensus
+
+
+Day 2. Basics of Convex Optimization
+    - Convex Set • (Non)-Convex Function • Smoothness • Strong Convexity • Strong Duality • Slater condition • KKT
+    - (Unconstrained) Convex Optimization Problem • Gradient Method (Constant Stepsize and Derivation from MM perspective) • Convergence Property
+
+
+Day 3. Stochastic Optimization
+- Stochastic Gradient
+- Variance Reduction: SAG, SAGA, SVRG…
+
+
+Day 4. Distributed Convex Optimization
+- Finite Sum Problem (some examples) • Distributed Optimization
+- Distributed Algorithms:
+    -- DGD,
+    -- Gradient Tracking,
+    -- Push-Pull/SONATA,
+    -- Primal-Dual (Lagrangian perspective)
+- Connection to Variance Reduction
+
+
+Day 5. Advanced Topics
+- Composite Optimization • Proximal/Projected gradient;
+- Primal-Dual Methods：EXTRA, D-ADMM and many others
+- Proximal Point Method • Monotone Operators • ADMM
+
+== Way of Teaching
+- Online (Key idea; Logical flow) + offline (Q&A; mathematical derivation);
+- Lectures (focused on optimization) + Seminars (covering topics on control, optimization and learning)
+
+== Invited speakers
+- Prof Gesualdo Scutari, Purdue University
+- Prof Ying Sun, Pennsylvania State University
+- Prof Lihua Xie, Nanyang Technological University
+- Prof Hoi To Wai, Chinese University of Hong Kong
+- Prof Na Li, Harvard Unviersity (TBC)
+- Prof Angelia Nedich, Arizona State University (TBC)
+- Prof Usman Khan, Tufts University(TBC)
+- Tao Lin, EPFL (TBD)
+- Dr. Kun Yuan, Damo Academy
+- Dr. Huan Li, Nankai University (TBI)
+
+== Time Schedule (To be updated)
+- 15 Lectures, 3 Lectures per day (8.30pm-11.30pm US time, GMT-4)
+- 10 Sessions for Q&A and some remaining contents that are not covered yet
+
+~~~
+{}{table}{TABLENAME}
+Time  | Monday (Aug 02)  |  Tuesday(Aug 03)  |  Wednesday(Aug 04)  |  Thursday(Aug 05)  |  Friday(Aug 06) ||
+8.30 am - 10.00 am  | Introduction to the course\n Jinming Xu Zhejiang University\n（offline） |  Lecture 2\n Ying Sun State Pennsylvania University\n（online）  |  Lecture 4\n  Ying Sun State Pennsylvania University\n（online） |  Lecture 6\n Gesualdo Scutari PurdueUniversity\n（online）  |  Lecture 8\n Gesualdo Scutari Purdue University\n（online）||
+10.00 am - 11.30 am  | Lecture 1\n Jinming Xu Zhejiang University\n（offline） |  Lecture 3\n Ying Sun State Pennsylvania University\n（online）  |  Lecture 5\n  Ying Sun State Pennsylvania University\n（online） |  Lecture 7\n Gesualdo Scutari PurdueUniversity\n（online）  |  Lecture 9\n Gesualdo Scutari Purdue University\n（online) ||
+2.30 pm - 3.30 pm | In-Class Exercise | In-Class Exercise | In-Class Exercise | In-Class Exercise | In-Class Exercise ||
+3.30 pm - 4.30 pm | Q&A | Q&A | Q&A | Q&A | Q&A  ||
+6.30 pm - 8.00 pm | Seminar 1\n (Prof Hong Yiguang）Tongji | Seminar 3\n (Prof Usman Khan）Tufts |Seminar 5\n (Prof Steven Low) Caltech| Seminar 7\n (Prof Wotao Yin) UCLA||
+8.00 pm - 9.30 pm | Seminar 2\n (Prof Martin Jaggi) EPFL| Seminar 4\n (Prof Alex Olshevsky）Boston Univ | Seminar 6\n (Prof Lihua Xie) NTU | Seminar 7\n (Prof Angelia Nedich) ASU
+
+~~~
